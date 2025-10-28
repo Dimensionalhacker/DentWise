@@ -7,7 +7,7 @@ import { auth } from "@clerk/nextjs/server";
 import React from "react";
 
 async function VoicePage() {
-    const {has} = await auth();
+    const {has} = await auth();  // fetchs id from clerk
     
     const hasProPlan = has({plan: "ai_basic"}) || has({plan: "ai_pro"})
 
