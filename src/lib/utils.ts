@@ -65,3 +65,4 @@ export const APPOINTMENT_TYPES = [
   { id: "consultation", name: "Consultation", duration: "30 min", price: "$75" },
   { id: "emergency", name: "Emergency Visit", duration: "30 min", price: "$150" },
 ];
+
